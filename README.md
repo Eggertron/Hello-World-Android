@@ -17,6 +17,7 @@ A simple "Hello World" Android application built using **Kotlin**. This project 
 
 To build the application locally from your terminal, you will need to generate the wrapper files once (if they aren't tracked in your repository) by running:
 
+```bash
 # Generate the wrapper (requires Gradle installed locally)
 gradle wrapper
 
@@ -29,6 +30,7 @@ chmod +x gradlew
 
 # On Windows
 gradlew.bat assembleDebug
+```
 
 The resulting APK will be generated at: app/build/outputs/apk/debug/app-debug.apk
 GitHub Actions CI/CD
